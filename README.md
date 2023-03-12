@@ -1,11 +1,11 @@
-About wayland
-=============
+About wayland-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wayland-feedstock/blob/main/LICENSE.txt)
 
 Home: https://gitlab.freedesktop.org/wayland/wayland
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wayland-feedstock/blob/main/LICENSE.txt)
 
 Summary: Base libraries for the Wayland rendering architecture
 
@@ -31,6 +31,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18738&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/wayland-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18738&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/wayland-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18738&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/wayland-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_" alt="variant">
                 </a>
               </td>
             </tr>
@@ -164,7 +178,4 @@ Feedstock Maintainers
 
 * [@hmaarrfk](https://github.com/hmaarrfk/)
 * [@pkgw](https://github.com/pkgw/)
-
-
-<!-- dummy commit to enable rerendering -->
 
