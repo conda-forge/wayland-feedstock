@@ -1,4 +1,4 @@
-{% set version = "1.22.0" %}
+{% set version = "1.23.0" %}
 
 package:
   name: wayland
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://gitlab.freedesktop.org/wayland/wayland/-/archive/{{ version }}/wayland-{{ version }}.tar.bz2
-  sha256: 1a681f14071d12c6263a7f7ac44e64ea85f2d39d177e69d0354d82860532e6b0
+  sha256: 30bc2d0b0d8a32343aedbb530c927f11e7b140ce8c821f191c2d0052a5c6e900
 
 build:
-  number: 1
+  number: 0
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('wayland', max_pin='x') }}
@@ -18,6 +18,7 @@ requirements:
   build:
     - pkg-config
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - meson
     - ninja
