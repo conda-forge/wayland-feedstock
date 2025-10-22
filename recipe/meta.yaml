@@ -9,7 +9,7 @@ source:
   sha256: ef9224f1a8b6dbd3049a2e51a547abb7e89612414c192a4349f3c83c7f553672
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('wayland', max_pin='x') }}
