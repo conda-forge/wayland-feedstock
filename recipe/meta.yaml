@@ -1,4 +1,4 @@
-{% set version = "1.25.0" %}
+{% set version = "1.26.0" %}
 
 package:
   name: wayland
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://gitlab.freedesktop.org/wayland/wayland/-/archive/{{ version }}/wayland-{{ version }}.tar.bz2
-  sha256: e759c5335ee29251764a7121b8f2eb0f879b769b6e483fd4b911986d6a06a0d8
+  sha256: ebf5fff1c8b11c24ceec74ff3047aefdb07efee8ce09bf3b856975aba3540d15
 
 build:
   number: 0
